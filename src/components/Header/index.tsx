@@ -3,14 +3,15 @@ import Image from 'next/image';
 import logo from '../../../public/images/logo.svg';
 
 import { ActiveLink } from '../ActiveLink';
+import Link from 'next/link';
 
 export function Header() {
   return (
     <header className={styles.headerContainer}>
       <div className={styles.headerContent}>
-        <a>
+        <Link href='/'>
           <Image src={logo} alt='Sujeito Programador Logo' />
-        </a>
+        </Link>
 
         <nav>
           <ActiveLink href='/' texto='Home' />
