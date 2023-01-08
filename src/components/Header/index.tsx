@@ -2,7 +2,7 @@ import styles from './styles.module.scss';
 import Image from 'next/image';
 import logo from '../../../public/images/logo.svg';
 
-import Link from 'next/link';
+import { ActiveLink } from '../ActiveLink';
 
 export function Header() {
   return (
@@ -13,9 +13,9 @@ export function Header() {
         </a>
 
         <nav>
-          <Link href='/'>Home</Link>
-          <Link href='/posts'>Conteúdos</Link>
-          <Link href='/sobre'>Quem somos?</Link>
+          <ActiveLink href='/' texto='Home' />
+          <ActiveLink href='/posts' texto='Conteúdos' />
+          <ActiveLink href='/sobre' texto='Quem somos?' />
         </nav>
 
         <a
