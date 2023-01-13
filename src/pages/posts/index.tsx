@@ -143,8 +143,6 @@ export default function Posts({
 export const getStaticProps: GetStaticProps = async ({ previewData }) => {
   const client = createClient({ previewData });
 
-  console.log(client);
-
   const response = await client.query(
     prismic.predicate.at('document.type', 'post'),
     {
