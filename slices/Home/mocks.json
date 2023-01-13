@@ -1,0 +1,36 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "title": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "heading1",
+            "content": {
+              "text": "Swimming"
+            }
+          }
+        ]
+      },
+      "description": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Ad ea dolore eiusmod eiusmod ex ullamco sunt veniam fugiat dolore labore Lorem do."
+            }
+          }
+        ]
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": []
+      }
+    ]
+  }
+]
