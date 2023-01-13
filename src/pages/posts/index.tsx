@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 import Image from 'next/image';
 import { GetStaticProps } from 'next';
-import { createClient, getPrismicClient } from '../../services/prismic';
+import { createClient } from '../../services/prismic';
 import { RichText } from 'prismic-dom';
 import * as prismic from '@prismicio/client';
 
