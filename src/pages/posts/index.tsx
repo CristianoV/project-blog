@@ -178,6 +178,6 @@ export const getStaticProps: GetStaticProps = async ({ previewData }) => {
       page: response.page,
       totalPage: response.total_pages,
     },
-    revalidate: 60 * 30, // Atualiza a cada 30 minutos.
+    revalidate: 60 * 10,
   };
 };
