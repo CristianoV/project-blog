@@ -1,7 +1,7 @@
 {
-  "apiEndpoint": "",
+  "apiEndpoint": "https://cristianovblog.prismic.io/api/v2",
   "libraries": [
-    ""
+    "@/slices"
   ],
-  "_latest": ""
+  "_latest": "0.6.0"
 }
